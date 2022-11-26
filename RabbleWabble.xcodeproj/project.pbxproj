@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		8F3A542C2931E0E100EBA778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A542B2931E0E100EBA778 /* AppDelegate.swift */; };
 		8F3A542E2931E0E100EBA778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A542D2931E0E100EBA778 /* SceneDelegate.swift */; };
-		8F3A54302931E0E100EBA778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A542F2931E0E100EBA778 /* ViewController.swift */; };
+		8F3A54302931E0E100EBA778 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A542F2931E0E100EBA778 /* QuestionViewController.swift */; };
 		8F3A54332931E0E100EBA778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54312931E0E100EBA778 /* Main.storyboard */; };
-		8F3A54352931E0E200EBA778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54342931E0E200EBA778 /* Assets.xcassets */; };
-		8F3A54382931E0E200EBA778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54362931E0E200EBA778 /* LaunchScreen.storyboard */; };
 		8F3A54432931E0E200EBA778 /* RabbleWabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54422931E0E200EBA778 /* RabbleWabbleTests.swift */; };
 		8F3A544D2931E0E200EBA778 /* RabbleWabbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A544C2931E0E200EBA778 /* RabbleWabbleUITests.swift */; };
 		8F3A544F2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A544E2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift */; };
+		8F3A54622931E28900EBA778 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54612931E28900EBA778 /* Question.swift */; };
+		8F3A54642931E2A700EBA778 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54632931E2A700EBA778 /* QuestionGroup.swift */; };
+		8F3A54662931E34E00EBA778 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54652931E34E00EBA778 /* QuestionGroupData.swift */; };
+		8F3A54682931E38400EBA778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54672931E38400EBA778 /* Assets.xcassets */; };
+		8F3A546A2931E39E00EBA778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54692931E39E00EBA778 /* LaunchScreen.storyboard */; };
+		8F3A546C2931E3E800EBA778 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A546B2931E3E800EBA778 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +43,20 @@
 		8F3A54282931E0E100EBA778 /* RabbleWabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleWabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3A542B2931E0E100EBA778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F3A542D2931E0E100EBA778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F3A542F2931E0E100EBA778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F3A542F2931E0E100EBA778 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		8F3A54322931E0E100EBA778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F3A54342931E0E200EBA778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F3A54372931E0E200EBA778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3A54392931E0E200EBA778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F3A543E2931E0E200EBA778 /* RabbleWabbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbleWabbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3A54422931E0E200EBA778 /* RabbleWabbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleTests.swift; sourceTree = "<group>"; };
 		8F3A54482931E0E200EBA778 /* RabbleWabbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbleWabbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3A544C2931E0E200EBA778 /* RabbleWabbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleUITests.swift; sourceTree = "<group>"; };
 		8F3A544E2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F3A54612931E28900EBA778 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8F3A54632931E2A700EBA778 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
+		8F3A54652931E34E00EBA778 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGroupData.swift; sourceTree = "<group>"; };
+		8F3A54672931E38400EBA778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3A54692931E39E00EBA778 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F3A546B2931E3E800EBA778 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,11 @@
 		8F3A542A2931E0E100EBA778 /* RabbleWabble */ = {
 			isa = PBXGroup;
 			children = (
-				8F3A542B2931E0E100EBA778 /* AppDelegate.swift */,
-				8F3A542D2931E0E100EBA778 /* SceneDelegate.swift */,
-				8F3A542F2931E0E100EBA778 /* ViewController.swift */,
-				8F3A54312931E0E100EBA778 /* Main.storyboard */,
-				8F3A54342931E0E200EBA778 /* Assets.xcassets */,
-				8F3A54362931E0E200EBA778 /* LaunchScreen.storyboard */,
-				8F3A54392931E0E200EBA778 /* Info.plist */,
+				8F3A545B2931E16B00EBA778 /* AppDelegate */,
+				8F3A545D2931E18200EBA778 /* Controllers */,
+				8F3A545E2931E18B00EBA778 /* Models */,
+				8F3A545F2931E19500EBA778 /* Resources */,
+				8F3A54602931E19F00EBA778 /* Views */,
 			);
 			path = RabbleWabble;
 			sourceTree = "<group>";
@@ -125,6 +131,52 @@
 				8F3A544E2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift */,
 			);
 			path = RabbleWabbleUITests;
+			sourceTree = "<group>";
+		};
+		8F3A545B2931E16B00EBA778 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A542B2931E0E100EBA778 /* AppDelegate.swift */,
+				8F3A542D2931E0E100EBA778 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8F3A545D2931E18200EBA778 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A542F2931E0E100EBA778 /* QuestionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F3A545E2931E18B00EBA778 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A54612931E28900EBA778 /* Question.swift */,
+				8F3A54632931E2A700EBA778 /* QuestionGroup.swift */,
+				8F3A54652931E34E00EBA778 /* QuestionGroupData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F3A545F2931E19500EBA778 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A54672931E38400EBA778 /* Assets.xcassets */,
+				8F3A54392931E0E200EBA778 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F3A54602931E19F00EBA778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A54692931E39E00EBA778 /* LaunchScreen.storyboard */,
+				8F3A54312931E0E100EBA778 /* Main.storyboard */,
+				8F3A546B2931E3E800EBA778 /* QuestionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3A54382931E0E200EBA778 /* LaunchScreen.storyboard in Resources */,
-				8F3A54352931E0E200EBA778 /* Assets.xcassets in Resources */,
+				8F3A546A2931E39E00EBA778 /* LaunchScreen.storyboard in Resources */,
+				8F3A54682931E38400EBA778 /* Assets.xcassets in Resources */,
 				8F3A54332931E0E100EBA778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3A54302931E0E100EBA778 /* ViewController.swift in Sources */,
+				8F3A54302931E0E100EBA778 /* QuestionViewController.swift in Sources */,
+				8F3A54622931E28900EBA778 /* Question.swift in Sources */,
 				8F3A542C2931E0E100EBA778 /* AppDelegate.swift in Sources */,
+				8F3A546C2931E3E800EBA778 /* QuestionView.swift in Sources */,
+				8F3A54662931E34E00EBA778 /* QuestionGroupData.swift in Sources */,
+				8F3A54642931E2A700EBA778 /* QuestionGroup.swift in Sources */,
 				8F3A542E2931E0E100EBA778 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +359,6 @@
 				8F3A54322931E0E100EBA778 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F3A54362931E0E200EBA778 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F3A54372931E0E200EBA778 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -438,7 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,7 +513,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
