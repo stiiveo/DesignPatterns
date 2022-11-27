@@ -16,7 +16,6 @@
 		8F3A544F2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A544E2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift */; };
 		8F3A54622931E28900EBA778 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54612931E28900EBA778 /* Question.swift */; };
 		8F3A54642931E2A700EBA778 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54632931E2A700EBA778 /* QuestionGroup.swift */; };
-		8F3A54662931E34E00EBA778 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A54652931E34E00EBA778 /* QuestionGroupData.swift */; };
 		8F3A54682931E38400EBA778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54672931E38400EBA778 /* Assets.xcassets */; };
 		8F3A546A2931E39E00EBA778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A54692931E39E00EBA778 /* LaunchScreen.storyboard */; };
 		8F3A546C2931E3E800EBA778 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A546B2931E3E800EBA778 /* QuestionView.swift */; };
@@ -27,6 +26,10 @@
 		8F3A547729323F6D00EBA778 /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A547629323F6D00EBA778 /* RandomQuestionStrategy.swift */; };
 		8F985A5A2933065000CD87A2 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985A592933065000CD87A2 /* AppSettings.swift */; };
 		8F985A5C293309F300CD87A2 /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985A5B293309F300CD87A2 /* AppSettingsViewController.swift */; };
+		8F985A662933167E00CD87A2 /* DiskCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985A652933167E00CD87A2 /* DiskCaretaker.swift */; };
+		8F985A682933169300CD87A2 /* QuestionGroupCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985A672933169300CD87A2 /* QuestionGroupCaretaker.swift */; };
+		8F985A6A293316A600CD87A2 /* QuestionGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F985A69293316A600CD87A2 /* QuestionGroupData.json */; };
+		8F985A6C2933188400CD87A2 /* BaseQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985A6B2933188400CD87A2 /* BaseQuestionStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +63,6 @@
 		8F3A544E2931E0E200EBA778 /* RabbleWabbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbleWabbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8F3A54612931E28900EBA778 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		8F3A54632931E2A700EBA778 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
-		8F3A54652931E34E00EBA778 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGroupData.swift; sourceTree = "<group>"; };
 		8F3A54672931E38400EBA778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3A54692931E39E00EBA778 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3A546B2931E3E800EBA778 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,10 @@
 		8F3A547629323F6D00EBA778 /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
 		8F985A592933065000CD87A2 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		8F985A5B293309F300CD87A2 /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
+		8F985A652933167E00CD87A2 /* DiskCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCaretaker.swift; sourceTree = "<group>"; };
+		8F985A672933169300CD87A2 /* QuestionGroupCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCaretaker.swift; sourceTree = "<group>"; };
+		8F985A69293316A600CD87A2 /* QuestionGroupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionGroupData.json; sourceTree = "<group>"; };
+		8F985A6B2933188400CD87A2 /* BaseQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuestionStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				8F3A545B2931E16B00EBA778 /* AppDelegate */,
+				8F985A642933166300CD87A2 /* CareTakers */,
 				8F3A545D2931E18200EBA778 /* Controllers */,
 				8F3A545E2931E18B00EBA778 /* Models */,
 				8F3A545F2931E19500EBA778 /* Resources */,
@@ -172,7 +179,6 @@
 			children = (
 				8F3A54612931E28900EBA778 /* Question.swift */,
 				8F3A54632931E2A700EBA778 /* QuestionGroup.swift */,
-				8F3A54652931E34E00EBA778 /* QuestionGroupData.swift */,
 				8F985A592933065000CD87A2 /* AppSettings.swift */,
 			);
 			path = Models;
@@ -183,6 +189,7 @@
 			children = (
 				8F3A54672931E38400EBA778 /* Assets.xcassets */,
 				8F3A54392931E0E200EBA778 /* Info.plist */,
+				8F985A69293316A600CD87A2 /* QuestionGroupData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -201,11 +208,21 @@
 		8F3A547129323E7000EBA778 /* Strategies */ = {
 			isa = PBXGroup;
 			children = (
+				8F985A6B2933188400CD87A2 /* BaseQuestionStrategy.swift */,
 				8F3A547229323E9000EBA778 /* QuestionStrategy.swift */,
-				8F3A547429323F1500EBA778 /* SequentialQuestionStrategy.swift */,
 				8F3A547629323F6D00EBA778 /* RandomQuestionStrategy.swift */,
+				8F3A547429323F1500EBA778 /* SequentialQuestionStrategy.swift */,
 			);
 			path = Strategies;
+			sourceTree = "<group>";
+		};
+		8F985A642933166300CD87A2 /* CareTakers */ = {
+			isa = PBXGroup;
+			children = (
+				8F985A652933167E00CD87A2 /* DiskCaretaker.swift */,
+				8F985A672933169300CD87A2 /* QuestionGroupCaretaker.swift */,
+			);
+			path = CareTakers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F3A546A2931E39E00EBA778 /* LaunchScreen.storyboard in Resources */,
+				8F985A6A293316A600CD87A2 /* QuestionGroupData.json in Resources */,
 				8F3A54682931E38400EBA778 /* Assets.xcassets in Resources */,
 				8F3A54332931E0E100EBA778 /* Main.storyboard in Resources */,
 			);
@@ -344,14 +362,16 @@
 				8F3A54622931E28900EBA778 /* Question.swift in Sources */,
 				8F3A542C2931E0E100EBA778 /* AppDelegate.swift in Sources */,
 				8F3A546C2931E3E800EBA778 /* QuestionView.swift in Sources */,
-				8F3A54662931E34E00EBA778 /* QuestionGroupData.swift in Sources */,
 				8F3A5470293237EC00EBA778 /* QuestionGroupCell.swift in Sources */,
 				8F3A547529323F1500EBA778 /* SequentialQuestionStrategy.swift in Sources */,
 				8F3A547729323F6D00EBA778 /* RandomQuestionStrategy.swift in Sources */,
 				8F3A547329323E9000EBA778 /* QuestionStrategy.swift in Sources */,
 				8F3A54642931E2A700EBA778 /* QuestionGroup.swift in Sources */,
 				8F985A5C293309F300CD87A2 /* AppSettingsViewController.swift in Sources */,
+				8F985A6C2933188400CD87A2 /* BaseQuestionStrategy.swift in Sources */,
 				8F3A546E2932377300EBA778 /* SelectQuestionGroupViewController.swift in Sources */,
+				8F985A662933167E00CD87A2 /* DiskCaretaker.swift in Sources */,
+				8F985A682933169300CD87A2 /* QuestionGroupCaretaker.swift in Sources */,
 				8F3A542E2931E0E100EBA778 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
